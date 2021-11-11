@@ -1,5 +1,5 @@
 # Library imports
-from spotify_ETL import run_spotify_etl
+from public_spotify_ETL import run_spotify_etl
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 from datetime import timedelta
