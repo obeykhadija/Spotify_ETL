@@ -24,7 +24,7 @@ dag = DAG(
 # Task Definition
 task1 = PythonOperator(
     task_id='song_to_Db',
-    python_callable=run_spotify_etl(),
+    python_callable=run_spotify_etl,
     dag=dag
 )
 
